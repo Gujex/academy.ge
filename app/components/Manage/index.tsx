@@ -95,7 +95,7 @@ const Manage = () => {
 
     return (
         <div id="services-section">
-            <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
+            <div className='mx-auto max-w-7xl sm:py-20 text-white lg:px-8 my-16'>
                 <h3 className='text-center text-4xl sm:text-65xl font-black text-[#e4baee]'>Manage All Your Social Media <br /> Profiles From One Place.</h3>
                 <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
@@ -133,19 +133,19 @@ const Manage = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 mx-5 gap-14 manage'>
+                <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 mx-5 gap-14 manage'>
                     {filteredData.map((items, i) => (
-                        <div className='manageTabs text-center p-10' key={i}>
+                        <div className='manageTabs  text-center p-10' key={i}>
                             <h4 className='text-2xl font-bold mb-3'>{items.heading}</h4>
                             <h2 className='text-5xl sm:text-65xl font-extrabold mb-3'>${items.price}</h2>
-                            <p className='text-sm font-medium text-darkgrey mb-6'>{items.user}</p>
+                            <p className='text-sm font-medium text-[#b8d0c9] mb-6'>{items.user}</p>
                             <button className='text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6'>{items.button}</button>
                             <hr style={{ color: "darkgrey", width: "50%", margin: "auto" }} />
-                            <h3 className='text-sm font-medium text-darkgrey mb-3 mt-6'>{items.profiles}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.posts}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.templates}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.view}</h3>
-                            <h3 className='text-sm font-medium text-darkgrey mb-3'>{items.support}</h3>
+                            <h3 className='text-sm font-medium text-[#b8d0c9] mb-3 mt-6'>{items.profiles}</h3>
+                            <h3 className='text-sm font-medium text-[#b8d0c9] mb-3'>{items.posts}</h3>
+                            <h3 className='text-sm font-medium text-[#b8d0c9] mb-3'>{items.templates}</h3>
+                            <h3 className='text-sm font-medium text-[#b8d0c9] mb-3'>{items.view}</h3>
+                            <h3 className='text-sm font-medium text-[#b8d0c9] mb-3'>{items.support}</h3>
                         </div>
                     ))}
                 </div>
