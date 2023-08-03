@@ -15,7 +15,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'About Us', href: '#aboutus-section', current: false },
-    { name: 'Services', href: '#services-section', current: false },
+    { name: 'Services 2', href: '#services-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
     { name: 'Blog', href: '#blog-section', current: false },
     { name: 'Testimonial', href: '#testimonial-section', current: false },
@@ -38,7 +38,7 @@ const Navbar = () => {
 
                             {/* LOGO */}
 
-                            <div className="flex flex-shrink-0 items-center border-right">
+                            <div className="flex flex-shrink-0 items-center">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-white'>
                                     Desgy Solutions 2
                                 </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
                             {/* LINKS */}
 
-                            <div className="hidden lg:flex items-center border-right ">
+                            <div className="hidden lg:flex items-center ">
                                 <div className="flex justify-end space-x-4">
                                     {navigation.map((item) => (
                                         <Link

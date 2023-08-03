@@ -10,7 +10,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'About Us', href: '#aboutus-section', current: true },
-    { name: 'Services', href: '#services-section', current: false },
+    { name: 'Services 1', href: '#services-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
     { name: 'Blog', href: '#blog-section', current: false },
     { name: 'Testimonial', href: '#testimonial-section', current: false },
