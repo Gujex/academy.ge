@@ -82,7 +82,7 @@ const names = [
 ]
 
 const Manage = () => {
-    
+
     const [enabled, setEnabled] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState('monthly');
 
@@ -96,9 +96,7 @@ const Manage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-65xl font-black'>Manage All Your Social Media <br /> Profiles From One Place.</h3>
-
-
+                <h3 className='text-center text-4xl sm:text-65xl font-black text-[#e4baee]'>Manage All Your Social Media <br /> Profiles From One Place.</h3>
                 <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
