@@ -12,7 +12,6 @@ const Contactusform = () => {
         input2: '',
         input3: ''
     });
-
     const handleChange = (e: { target: { name: string; value: string; }; }) => {
         const { name, value } = e.target;
         setInputValues(prevState => ({ ...prevState, [name]: value }));
