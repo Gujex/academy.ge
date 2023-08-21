@@ -15,10 +15,10 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'ჩვენს შესახებ', href: '#aboutus-section', current: false },
-    { name: 'Services 2', href: '#services-section', current: false },
+    { name: 'სერვისები', href: '#services-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Blog', href: '#blog-section', current: false },
-    { name: 'Testimonial', href: '#testimonial-section', current: false },
+    { name: 'ბლოგი', href: '#blog-section', current: false },
+    { name: 'რეკომენდაციები', href: '#testimonial-section', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                             <div className="flex flex-shrink-0 items-center">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-white'>
-                                    Desgy Solutions 2
+                                    Digital School
                                 </Link>
                             </div>
 

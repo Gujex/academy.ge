@@ -15,17 +15,18 @@ const postData: DataType[] = [
     {
         profession: 'Co-founder',
         name: 'John Doe',
-        imgSrc: '/images/wework/avatar.svg',
+        imgSrc: '/images/wework/gio.jpg',
     },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar3.svg',
-    },
+
     {
         profession: 'Co-founder',
         name: 'John Doe',
         imgSrc: '/images/wework/avatar4.svg',
+    },
+    {
+        profession: 'Co-founder',
+        name: 'John Doe',
+        imgSrc: '/images/wework/toma.png',
     },
     {
         profession: 'Co-founder',
