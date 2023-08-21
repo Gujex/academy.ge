@@ -8,9 +8,10 @@ const Contactusform = () => {
     let [isOpen, setIsOpen] = useState(false)
 
     const [inputValues, setInputValues] = useState({
-        input1: '',
-        input2: '',
-        input3: ''
+        fullName: '',
+        parentFullName: '',
+        phone: '',
+        message: '',
     });
     const handleChange = (e: { target: { name: string; value: string; }; }) => {
         const { name, value } = e.target;
@@ -18,7 +19,7 @@ const Contactusform = () => {
     }
 
     const handleClick = () => {
-        alert(`Name: ${inputValues.input1}, Email-address: ${inputValues.input2}, Message: ${inputValues.input3}`);
+        alert(`Name: ${inputValues.fullName}, Email-address: ${inputValues.parentFullName}, Message: ${inputValues.phone}`);
         setIsOpen(false)
     }
 
@@ -42,11 +43,6 @@ const Contactusform = () => {
     return (
         <>
             <div className=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
-                {/* <div className='lg:hidden'>
-                    <button type="button" className='bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded' onClick={openModal}>
-                        Contact Us
-                    </button>
-                </div> */}
                 <div className='hidden lg:block'>
                     <button type="button" className='justify-end text-xl font-semibold bg-blue py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-black text-white hover:text-white' onClick={openModal}>
                         დაკავშირება
@@ -87,45 +83,56 @@ const Contactusform = () => {
                                                 Desgy Solutions
                                             </Link>
                                         </div>
-                                        <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Contact us now? Want to send us a feedback?</p>
+                                        <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">რეგისტრაციისთვის შეავსეთ მოცემული ველები</p>
                                         <form action="#" className="space-y-8" onSubmit={handleSubmit}>
                                             <div>
-                                                <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
+                                                <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">სახელი და გვარი</label>
                                                 <input
                                                     id="text"
-
-                                                    name="input1"
-                                                    value={inputValues.input1}
+                                                    name="fullName"
+                                                    value={inputValues.fullName}
                                                     onChange={handleChange}
-
                                                     type="text"
                                                     autoComplete="current-password"
                                                     required
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                                    placeholder="Name..."
+                                                    // placeholder="Name..."
                                                 />
                                             </div>
                                             <div>
-                                                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                                                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის სახელი და გვარი</label>
                                                 <input
                                                     id="email"
-                                                    name="input2"
-                                                    value={inputValues.input2}
+                                                    name="parentFullName"
+                                                    value={inputValues.parentFullName}
                                                     onChange={handleChange}
-
-                                                    type="email"
+                                                    type="text"
                                                     autoComplete="current-password"
                                                     required
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                                    placeholder="xyz@email.com"
+                                                    // placeholder="xyz@email.com"
+                                                />
+                                            </div>
+                                            <div>
+                                                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის ტელეფონის ნომერი</label>
+                                                <input
+                                                    id="phone"
+                                                    name="phone"
+                                                    value={inputValues.phone}
+                                                    onChange={handleChange}
+                                                    type="number"
+                                                    autoComplete="current-password"
+                                                    required
+                                                    className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                                                    placeholder="551123456"
                                                 />
                                             </div>
                                             <div className="sm:col-span-2">
-                                                <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                                                <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">სამოტივაციო წერილი</label>
                                                 <textarea
                                                     id="message"
-                                                    name="input3"
-                                                    value={inputValues.input3}
+                                                    name="message"
+                                                    value={inputValues.message}
                                                     onChange={handleChange}
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Leave a comment..."></textarea>
                                             </div>
