@@ -14,7 +14,7 @@ const Dedicated = () => {
                         <Image src="/images/dedicated/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
                     </div>
 
-                    {/* COLUMN-2 */}
+                    {/* COLUMN-2 sd*/}
                     <div className="relative">
                         <Image src="images/dedicated/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" />
                         <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center text-white lg:text-start">Dedicated to help peoples design needs.</h2>
