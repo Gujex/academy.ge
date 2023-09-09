@@ -70,9 +70,9 @@ const Contactusform = () => {
             <div className=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
                 <div className='hidden lg:block'>
                     <button type="button"
-                            className='justify-end text-xl font-semibold bg-blue py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-black text-white hover:text-white'
+                            className='justify-end text-xl font-semibold bg-blue py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-hoblue text-white hover:text-white'
                             onClick={openModal}>
-                        დაკავშირება
+                        რეგისტრაცია
                     </button>
                 </div>
             </div>
