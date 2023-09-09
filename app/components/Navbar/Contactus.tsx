@@ -55,8 +55,7 @@ const Contactusform = () => {
         // handle form submission
     };
 
-    const isDisabled = Object.values(inputValues).some((value) => value === '');
-
+    const isDisabled = Object.keys(inputValues).some((key) => key !== 'motivationLetter' && inputValues[key] === '');
 
     const closeModal = () => {
         setIsOpen(false)
