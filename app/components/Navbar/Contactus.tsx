@@ -149,6 +149,17 @@ const Contactusform = () => {
                                             <div>
                                                 <label htmlFor="email"
                                                        className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის
+                                                    სახელი და გვარი</label>
+                                                <select className={'block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300'}>
+                                                    <option value="volvo">გრიგოლეთი</option>
+                                                    <option value="saab">ხაიში</option>
+                                                    <option value="mercedes">თეთთრიწყარო</option>
+
+                                                </select>
+                                            </div>
+                                            <div>
+                                                <label htmlFor="email"
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის
                                                     ტელეფონის ნომერი</label>
                                                 <input
                                                     id="phoneNumber"

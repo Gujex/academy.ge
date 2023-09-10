@@ -15,7 +15,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'ჩვენს შესახებ', href: '#aboutus-section', current: false },
-    { name: 'სერვისები', href: '#services-section', current: false },
+    { name: 'კურსები', href: '#services-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
     { name: 'ბლოგი', href: '#blog-section', current: false },
     { name: 'რეკომენდაციები', href: '#testimonial-section', current: false },

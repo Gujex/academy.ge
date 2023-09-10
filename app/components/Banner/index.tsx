@@ -9,7 +9,7 @@ const Banner = () => {
 
                 <div className="mx-auto sm:mx-0">
                     <div className='py-3 text-center lg:text-start'>
-                        <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>DESIGN AGENCY</button>
+                        <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>DIGITAL AGENCY</button>
                     </div>
                     <div className="py-3 text-center lg:text-start">
                         <h1 className='text-6xl lg:text-80xl font-bold text-white'>
@@ -18,7 +18,7 @@ const Banner = () => {
                     </div>
                     <div className='my-7 text-center lg:text-start'>
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
-                            Get Started
+                            იხილეთ ვრცლად
                         </button>
                     </div>
                 </div>
