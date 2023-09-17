@@ -22,14 +22,14 @@ export default function Home() {
       <Digital />
       <Beliefs />
       <Wework />
-      <Ourteam />
+      {/*<Ourteam />*/}
       {/* <Featured /> */}
       <Manage />
       <FAQ />
       <Testimonials />
-      <Articles />
+      {/*<Articles />*/}
       <Joinus />
-      <Insta />
+      {/*<Insta />*/}
     </main>
   )
 }

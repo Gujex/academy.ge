@@ -15,15 +15,15 @@ type InputValues = {
 const Contactusform = () => {
     let [isOpen, setIsOpen] = useState(false)
 
-    const [inputValues, setInputValues] = useState<InputValues>({
+    const [inputValues, setInputValues] = useState<any>({
         fullName: '',
         parentFullName: '',
         phoneNumber: '',
         motivationLetter: '',
     });
     const handleChange = (e: { target: { name: string; value: string; }; }) => {
-        const {name, value} = e.target;
-        setInputValues(prevState => ({...prevState, [name]: value}));
+        const {name, value}:any = e.target;
+        setInputValues((prevState:any) => ({...prevState, [name]: value}));
     }
 
     const handleClick = () => {
@@ -55,7 +55,7 @@ const Contactusform = () => {
         // handle form submission
     };
 
-    const isDisabled = Object.keys(inputValues).some((key) => key !== 'motivationLetter' && inputValues[key] === '');
+    const isDisabled:any = Object.keys(inputValues).some((key) => key !== 'motivationLetter' && inputValues[key] === '');
 
     const closeModal = () => {
         setIsOpen(false)
