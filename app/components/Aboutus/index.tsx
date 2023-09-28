@@ -5,7 +5,7 @@ import {ChevronRightIcon} from '@heroicons/react/20/solid'
 interface datatype {
     heading: string;
     imgSrc: string;
-    paragraph: string;
+    paragraph: string | JSX.Element;
     link: string;
 }
 
@@ -27,7 +27,7 @@ const Aboutdata: datatype[] = [
         heading: "გამოცდილება",
         imgSrc: "/images/aboutus/imgThree.svg",
         paragraph: 'ჩვენი ყველა მენტორი ძალიან გამოცდილია საკუთარ სფეროში, ამიტომ მათ ზუსტად იციან რა გჭირდება შენ.',
-        link: 'გაიგე მეტი'
+        link: 'გაიგე მეტი',
     },
 ]
 
