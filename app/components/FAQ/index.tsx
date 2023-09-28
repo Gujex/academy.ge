@@ -23,7 +23,7 @@ const FAQ = () => {
                                 </Disclosure.Button>
                                 <Disclosure.Panel
                                     className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    ჩვენი აკადემიის სტუდენტები არიან სკოლის მოსწავლები, <br/>რომლებიც ძირითადად
+                                    ჩვენი აკადემიის სტუდენტები ძირითადად არიან ახალგაზრდები, <br/>რომლებიც ძირითადად
                                     რეგიონებში ცხოვრობენ.<br/>
                                 </Disclosure.Panel>
                             </>

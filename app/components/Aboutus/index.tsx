@@ -7,6 +7,7 @@ interface datatype {
     imgSrc: string;
     paragraph: string | JSX.Element;
     link: string;
+    route?: string;
 }
 //
 const Aboutdata: datatype[] = [
@@ -15,19 +16,22 @@ const Aboutdata: datatype[] = [
         imgSrc: "/images/aboutus/imgOne.svg",
         paragraph: 'ჩვენი მიზანია: ხელმისაწვდომი გავხადოთ\n' +
             'განათლება რეგიონებსა და სოფლებში მცხოვრებ ახალგაზრდებისთვის.',
-        link: 'გაიგე მეტი'
+        link: 'გაიგე მეტი',
+        route: 'about'
     },
     {
         heading: "სერვისები",
         imgSrc: "/images/aboutus/imgTwo.svg",
         paragraph: <span>ჩვენს აკადემიაში შეისწავლი პროგრამირებისა და 3D დიზაინის მიმართულებებს.<br/> <br/> <br/></span>,
-        link: 'გაიგე მეტი'
+        link: 'გაიგე მეტი',
+        route: 'about'
     },
     {
         heading: "გამოცდილება",
         imgSrc: "/images/aboutus/imgThree.svg",
         paragraph: 'ჩვენი ყველა მენტორი ძალიან გამოცდილია საკუთარ სფეროში, ამიტომ მათ ზუსტად იციან რა გჭირდება შენ.',
         link: 'გაიგე მეტი',
+        route: 'about'
     },
 ]
 
@@ -47,7 +51,7 @@ const Aboutus = () => {
                             <h4 className='text-4xl font-semibold  text-black mb-5 group-hover:text-white'>{item.heading}</h4>
                             <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5"/>
                             <h4 className='text-lg font-normal text-black group-hover:text-offwhite mb-5'>{item.paragraph}</h4>
-                            <Link href="#"
+                            <Link href={`/${item.route}`}
                                   className='text-lg font-semibold group-hover:text-white text-blue hover-underline'>
                                 {item.link}
                                 <ChevronRightIcon width={20} height={20}/>
