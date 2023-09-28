@@ -9,7 +9,7 @@ interface datatype {
     link: string;
     route?: string;
 }
-//
+
 const Aboutdata: datatype[] = [
     {
         heading: "შესახებ.",
