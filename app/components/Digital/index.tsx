@@ -21,12 +21,19 @@ const Digital = () => {
 
                     <div>
                         <div className="lg:absolute girldoodle">
-                            <Image src="/images/digital/girldoodle.svg" alt="girldoodle" width={815} height={691} />
                         </div>
                     </div>
 
 
                 </div>
+                {/*<Image src="/images/custom/success-way.jpg" alt="girldoodle" width={*/}
+                {/*    1920*/}
+                {/*}*/}
+                {/*    height={*/}
+                {/*        1080*/}
+                {/*    }*/}
+                {/*/>*/}
+
             </div>
         </div>
     )

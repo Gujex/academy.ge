@@ -9,7 +9,10 @@ const Banner = () => {
 
                 <div className="mx-auto sm:mx-0">
                     <div className='py-3 text-center lg:text-start'>
-                        <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>DIGITAL AGENCY</button>
+                        <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>
+                            <span style={{color:'rgb(249,178,0)'}}>Leaders</span>
+                            <span style={{color:'rgb(77,111,207)', marginLeft:'8px'}}>Academy</span>
+                        </button>
                     </div>
                     <div className="py-3 text-center lg:text-start">
                         <h1 className='text-6xl lg:text-80xl font-bold text-white'>

@@ -6,7 +6,8 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
-
+import Image from "next/image";
+import logo from "../../../public/images/custom/texted-logo.png"
 interface NavigationItem {
     name: string;
     href: string;
@@ -40,7 +41,8 @@ const Navbar = () => {
 
                             <div className="flex flex-shrink-0 items-center">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-white'>
-                                    Digital School
+                                    {/*Leaders Academy*/}
+                                    <Image src={logo} alt={'logo'} width={150} height={150} />
                                 </Link>
                             </div>
 
