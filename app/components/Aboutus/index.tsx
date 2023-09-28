@@ -8,7 +8,7 @@ interface datatype {
     paragraph: string;
     link: string;
 }
-
+//
 const Aboutdata: datatype[] = [
     {
         heading: "About us.",
