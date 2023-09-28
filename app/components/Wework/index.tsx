@@ -13,36 +13,36 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/gio.jpg',
+        profession: '3D Artist',
+        name: 'T. Dolenjashvili',
+        imgSrc: '/images/profs/tom.jpg',
+    },
+    {
+        profession: 'Full Stack Developer',
+        name: 'G.Gujejiani',
+        imgSrc: '/images/profs/gio.jpg',
+    },
+    {
+        profession: '3D Artist',
+        name: 'E. Nikabadze',
+        imgSrc: '/images/profs/elis.jpg',
+    },
+    {
+        profession: 'Backend developer',
+        name: 'D. Gujejiani',
+        imgSrc: '/images/profs/დავიდ.jpg',
+    },
+    {
+        profession: '3D Artist',
+        name: 'T. Dolenjashvili',
+        imgSrc: '/images/profs/tom.jpg',
+    },
+    {
+        profession: 'Full Stack Developer',
+        name: 'G.Gujejiani',
+        imgSrc: '/images/profs/gio.jpg',
     },
 
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar4.svg',
-    },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/toma.png',
-    },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar.svg',
-    },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar3.svg',
-    },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar4.svg',
-    },
 ]
 
 // CAROUSEL SETTINGS
