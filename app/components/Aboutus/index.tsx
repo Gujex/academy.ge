@@ -8,7 +8,7 @@ interface datatype {
     paragraph: string | JSX.Element;
     link: string;
 }
-
+//
 const Aboutdata: datatype[] = [
     {
         heading: "შესახებ.",
