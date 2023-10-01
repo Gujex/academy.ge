@@ -9,7 +9,7 @@ const names = [
         heading: "Startup",
         price: 41,
         user: 'per user, per month',
-        button: "Start My 15-day Trial",
+        button: "დაიწყე ახლავე",
         profiles: '5 Social Profiles',
         posts: '5 Scheduled Posts Per Profile',
         templates: "400+ Templated",
@@ -96,19 +96,19 @@ const Manage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 text-white lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-65xl font-black text-[#e4baee]'>Manage All Your Social Media <br /> Profiles From One Place.</h3>
+                <h3 className='text-center text-4xl sm:text-65xl font-black text-[#e4baee]'>ჩვენთან ფასები <br /> მაქსიმალურად კომფორტულია.</h3>
                 <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Free 15-day trial</h4>
+                        <h4 className='text-lg font-semibold'>მეგობრული გარემო</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Unlimited Team Members</h4>
+                        <h4 className='text-lg font-semibold'>სწრაფი განვითარება</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Cancel Anytime</h4>
+                        <h4 className='text-lg font-semibold'>აქტიური მენტორები</h4>
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@ const Manage = () => {
                     <div className='dance-text mb-5'>get 3 months free</div>
                     <Image src="/images/manage/toggle.svg" alt="toggle-image" width={24} height={24} className="toggleImage" />
                     <div className='flex justify-center'>
-                        <h3 className='text-sm font-medium mr-5'>Billed Yearly</h3>
+                        <h3 className='text-sm font-medium mr-5'>დიდი ქალაქები</h3>
                         <Switch
                             checked={enabled}
                             onChange={toggleEnabled}
@@ -129,7 +129,7 @@ const Manage = () => {
                                 } inline-block h-4 w-4 transform rounded-full bg-white transition`}
                             />
                         </Switch>
-                        <h3 className='text-sm font-medium ml-5'>Billed Monthly</h3>
+                        <h3 className='text-sm font-medium ml-5'>რეგიონები</h3>
                     </div>
                 </div>
 
