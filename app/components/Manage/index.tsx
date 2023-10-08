@@ -5,28 +5,28 @@ import Image from 'next/image';
 
 
 const names = [
-    {
-        heading: "Front end",
-        price: 4122,
-        user: 'პროგრამირსსება',
-        button: "რეგისტრაცია",
-        profiles: 'html',
-        posts: 'css',
-        templates: "Bootstrap & Tailwind",
-        view: "Javascript",
-        support: 'Typescript',
-        category: 'ასდ'
-    },
+    // {
+    //     heading: "Front end",
+    //     price: 4122,
+    //     user: 'პროგრამირსება',
+    //     button: "რეგისტრაცია",
+    //     profiles: 'html',
+    //     posts: 'css',
+    //     templates: "Bootstrap & Tailwind",
+    //     view: "Javascript",
+    //     support: 'Typescript',
+    //     category: 'ასდ'
+    // },
     {
         heading: "3D modeling",
         // price: 41211,
         user: 'თომა დოლენჯაშვილი',
         button: "რეგისტრაცია",
-        profiles: 'Modeling',
-        posts: 'Textures',
-        templates: "Rendering",
-        view: "Lights",
-        support: 'Physics and Simulations',
+        profiles: 'ანატომია',
+        posts: 'სკულპტირება',
+        templates: "ტექსტურირება",
+        view: "რენდერინგი",
+        support: 'ფიზიკა და სიმულაციები',
         category: 'yearly'
     },
     {
@@ -34,11 +34,11 @@ const names = [
         // price: 41211,
         user: 'ელისაბედ ნიქაბაძე',
         button: "რეგისტრაცია",
-        profiles: 'Modeling',
-        posts: 'Textures',
-        templates: "Rendering",
-        view: "Lights",
-        support: 'Physics and Simulations',
+        profiles: 'ანატომია',
+        posts: 'სკულპტირება',
+        templates: "ტექსტურირება",
+        view: "რენდერინგი",
+        support: 'ფიზიკა და სიმულაციები',
         category: 'yearly'
     },
     {
@@ -49,8 +49,8 @@ const names = [
         profiles: 'HTML/CSS/JS',
         posts: 'Bootstrap/Tailwind',
         templates: "Responsive Web Design",
-        view: "API Integration",
-        support: 'Error Handling',
+        view: "API ინტეგრაცია",
+        support: 'Error-ების აღმოფხვრა',
         category: 'monthly'
     },
     {
@@ -59,10 +59,10 @@ const names = [
         user: 'დავით გუჯეჯიანი',
         button: "რეგისტრაცია",
         profiles: 'PHP/Laravel',
-        posts: 'Databases',
+        posts: 'მონაცემთა ბაზები',
         templates: "API Development",
-        view: "Server Management",
-        support: 'Error Handling',
+        view: "სერვერის მენეჯმენტი",
+        support: 'Error-ების აღმოფხვრა',
         category: 'monthly'
     },
     {
@@ -71,24 +71,24 @@ const names = [
         user: 'გიორგი გუჯეჯიანი',
         button: "რეგისტრაცია",
         profiles: 'Javascript/Node.js',
-        posts: 'Databases',
+        posts: 'მონაცემთა ბაზები',
         templates: "API Development",
-        view: "Server Management",
-        support: 'Error Handling',
+        view: "სერვერის მენეჯმენტი",
+        support: 'Error-ების აღმოფხვრა',
         category: 'monthly'
     },
-    {
-        heading: "Front end",
-        price: 4121,
-        user: 'per user, per yearly',
-        button: "backend developing",
-        profiles: 'mobile developing',
-        // posts: '',
-        // templates: "400+ Templated",
-        // view: "Calendar View",
-        // support: '24/7 Support',
-        // category: 'yearly'
-    },
+    // {
+    //     heading: "Front end",
+    //     price: 4121,
+    //     user: 'per user, per yearly',
+    //     button: "backend developing",
+    //     profiles: 'mobile developing',
+    //     // posts: '',
+    //     // templates: "400+ Templated",
+    //     // view: "Calendar View",
+    //     // support: '24/7 Support',
+    //     // category: 'yearly'
+    // },
 
 
 ]
