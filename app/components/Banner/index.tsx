@@ -14,10 +14,10 @@ const Banner = () => {
                             <span style={{color:'rgb(77,111,207)', marginLeft:'8px'}}>Academy</span>
                         </button>
                     </div>
-                    <div className="py-3 text-center lg:text-start">
-                        <h1 className='text-6xl lg:text-80xl font-bold text-white'>
-                            Dedicated to <br /> bring your <br /> ideas to life.
-                        </h1>
+                    <div  className="py-3  text-center lg:text-start">
+                        <h3 style={{lineHeight: '75px'}} className='text-6xl lg:text-50xl  font-bold text-white'>
+                            ჩვენ გვსურს <br /> განათლება იყოს<br />  ხელმისაწვდომი.
+                        </h3>
                     </div>
                     <div className='my-7 text-center lg:text-start'>
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
