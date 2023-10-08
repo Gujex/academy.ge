@@ -1,5 +1,5 @@
 export const userRegister = async (data: any) => {
-    const url = 'http://localhost:5000/addCustomer';
+    const url = 'https://leadersacademy1-42852730b9ec.herokuapp.com/addCustomer';
     const response = await fetch(url, {
         method: 'POST',
         body: JSON.stringify(data),
