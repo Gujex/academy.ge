@@ -17,8 +17,8 @@ const Dedicated = () => {
                     {/* COLUMN-2 sd*/}
                     <div className="relative">
                         <Image src="images/dedicated/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" />
-                        <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center text-white lg:text-start">Dedicated to help peoples design needs.</h2>
-                        <p className="font-medium text-white text-2xl mt-5 text-center lg:text-start">ამ აკადემიაში ყველას შეუძლია ისწავლოს მისთვის სასურველი პროფესია.</p>
+                        <h2 className="text-2xl  lg:text-65xl  pt-4 font-bold sm:leading-tight mt-5 text-center text-white lg:text-start ">აქციე ჩანაფიქრი რეალობად შენს 3D სამყაროში.</h2>
+                        <p className="font-medium text-white text-2xl mt-5 text-center lg:text-start">დაეუფლე 3D ხელოვნებას პროფესიულ დონეზე.</p>
                         <p className="text-2xl font-semibold mt-12 lg:ml-32 preline shadow-ring-white-5 text-gold text-center lg:text-start"> Toma Dolenjashvili, 3D ARTIST</p>
                     </div>
 

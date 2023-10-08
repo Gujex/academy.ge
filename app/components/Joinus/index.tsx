@@ -4,8 +4,8 @@ const Join = () => {
         <div className="bg-joinus my-32 pb-70">
             <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                 <div className="text-center">
-                    <h3 className="text-white text-lg font-normal tracking-widest">JOIN US</h3>
-                    <h2 className="text-4xl text-white sm:text-6xl font-bold my-6 leading-10">დაინტერესებულ<br />იურიდიულ პირთათვის.</h2>
+                    <h3 className="text-white text-lg font-normal tracking-widest">დაგვიკავშირდი</h3>
+                    <h2 className="text-4xl text-white sm:text-6xl font-bold my-6 leading-10">დაინტერესებული<br />იურიდიული პირებისათვის.</h2>
                     <p className="text-lightgrey text-base font-normal">დაგვიტოვეთ თქვენი მონაცემები<br /></p>
                 </div>
                 <div className="mx-auto max-w-4xl pt-5">

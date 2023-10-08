@@ -15,9 +15,11 @@ const Banner = () => {
                         </button>
                     </div>
                     <div  className="py-3  text-center lg:text-start">
-                        <h3 style={{lineHeight: '75px'}} className='text-6xl lg:text-50xl  font-bold text-white'>
-                            ჩვენ გვსურს <br /> განათლება იყოს<br />  ხელმისაწვდომი.
+                        <h3 className="text-2xl sm:text-6xl lg:text-50xl leading-10 lg:leading-normal font-bold text-white">
+                            ვქმნით გზას <br /> წარმატებისკენ.
                         </h3>
+
+
                     </div>
                     <div className='my-7 text-center lg:text-start'>
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>

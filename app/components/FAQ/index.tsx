@@ -23,7 +23,7 @@ const FAQ = () => {
                                 </Disclosure.Button>
                                 <Disclosure.Panel
                                     className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    ჩვენი აკადემიის სტუდენტები ძირითადად არიან ახალგაზრდები, <br/>რომლებიც ძირითადად
+                                    ჩვენი აკადემიის სტუდენტები ძირითადად არიან ახალგაზრდები, <br/>რომლებიც
                                     რეგიონებში ცხოვრობენ.<br/>
                                 </Disclosure.Panel>
                             </>
@@ -45,7 +45,7 @@ const FAQ = () => {
                                 </Disclosure.Button>
                                 <Disclosure.Panel
                                     className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    ჯერ-ჯერობით ჩვენს აკადემიაში პროგრამირების და 3D დიზაინის სწავლას
+                                    ჩვენს აკადემიაში პროგრამირების და 3D დიზაინის სწავლას
                                     შეძლებ, <br/> თუმცა მომავალში გვინდა დავამატოთ სხვა ციფრული და
                                     მოთხოვნადი<br/> პროფესიები.
                                 </Disclosure.Panel>
