@@ -20,6 +20,7 @@ const Contactusform = () => {
         parentFullName: '',
         phoneNumber: '',
         motivationLetter: '',
+        course: '',
     });
     const handleChange = (e: { target: { name: string; value: string; }; }) => {
         const {name, value}:any = e.target;
@@ -39,6 +40,7 @@ const Contactusform = () => {
                 parentFullName: '',
                 phoneNumber: '',
                 motivationLetter: '',
+                course: '',
             })
         }).catch((err) => {
             Swal.fire({
@@ -172,6 +174,25 @@ const Contactusform = () => {
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                                                     placeholder="551123456"
                                                 />
+                                            </div>
+                                            <div>
+                                                <label htmlFor="email"
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის
+                                                    კურსი</label>
+                                                <select
+                                                    id="course"
+                                                    name="course"
+                                                    value={inputValues.course}
+                                                    onChange={handleChange}
+                                                    autoComplete="current-password"
+                                                    required
+                                                    className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                                                    // placeholder="xyz@email.com"
+                                                >
+                                                    <option value="">-</option>
+                                                    <option value="0">პროგრამირება</option>
+                                                    <option value="1">3D ხელოვნება</option>
+                                                </select>
                                             </div>
                                             <div className="sm:col-span-2">
                                                 <label htmlFor="message"
