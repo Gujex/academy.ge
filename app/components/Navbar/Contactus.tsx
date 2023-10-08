@@ -5,12 +5,12 @@ import Link from 'next/link';
 import {userRegister} from "@/services/registration";
 import Swal from 'sweetalert2';
 
-type InputValues = {
-    fullName: string;
-    parentFullName: string;
-    phoneNumber: string;
-    motivationLetter: string;
-}
+// type InputValues = {
+//     fullName: string;
+//     parentFullName: string;
+//     phoneNumber: string;
+//     motivationLetter: string;
+// }
 
 const Contactusform = () => {
     let [isOpen, setIsOpen] = useState(false)
@@ -146,17 +146,17 @@ const Contactusform = () => {
                                                     // placeholder="xyz@email.com"
                                                 />
                                             </div>
-                                            <div>
-                                                <label htmlFor="email"
-                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის
-                                                    სახელი და გვარი</label>
-                                                <select className={'block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300'}>
-                                                    <option value="volvo">გრიგოლეთი</option>
-                                                    <option value="saab">ხაიში</option>
-                                                    <option value="mercedes">თეთთრიწყარო</option>
+                                            {/*<div>*/}
+                                            {/*    <label htmlFor="email"*/}
+                                            {/*           className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის*/}
+                                            {/*        სახელი და გვარი</label>*/}
+                                            {/*    <select className={'block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300'}>*/}
+                                            {/*        <option value="volvo">გრიგოლეთი</option>*/}
+                                            {/*        <option value="saab">ხაიში</option>*/}
+                                            {/*        <option value="mercedes">თეთთრიწყარო</option>*/}
 
-                                                </select>
-                                            </div>
+                                            {/*    </select>*/}
+                                            {/*</div>*/}
                                             <div>
                                                 <label htmlFor="email"
                                                        className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">მშობლის
