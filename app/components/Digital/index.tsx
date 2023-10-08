@@ -10,8 +10,8 @@ const Digital = () => {
                     {/* COLUMN-1 */}
 
                     <div className="pt-24 lg:pl-24 ">
-                        <h3 className="text-lg font-normal text-white mb-5 tracking-widest text-center lg:text-start">WHO WE ARE</h3>
-                        <h4 className="text-4xl sm:text-6xl font-bold text-white mb-8 leading-snug text-center lg:text-start">We are a digital <br /> agency that builds <br /> amazing products.</h4>
+                        <h3 className="text-lg font-normal text-white mb-5 tracking-widest text-center lg:text-start">Leaders Academy</h3>
+                        <h4 className="sm:text-2xl lg:text-3xl  font-bold text-white mb-8 lg:leading-normal text-center lg:text-start">ჩვენ სპეციალიზირებულნი ვართ <br /> 3D მხატვრობისა და ვებ პროგრამირების უნარების <br />  შესწავლასა და განვითარებაში.</h4>
                         <div className="text-center lg:text-start">
                             <button className="text-xl font-semibold text-white bg-btnblue py-4 px-12 hover:bg-hoblue rounded-full">Get started</button>
                         </div>
