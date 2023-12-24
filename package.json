@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "npm ci && npm install --package-lock-only",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
