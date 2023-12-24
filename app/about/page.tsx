@@ -1,17 +1,15 @@
 import React from "react";
-import Navbar from "@/app/components/Navbar";
-
 const AboutPage = () => {
   return (
     <>
-      <section className=" relative flex items-center bg-[#27262c] min-h-[600px]  	">
+      <section className=" relative flex items-center bg-[#27262c] min-h-[600px]  py-40	">
         <div className="justify-center flex-1 max-w-6xl py-4 mx-auto ">
           <div className="flex flex-wrap ">
             <div className="w-full px-4   ">
-              <h2 className="mb-4 text-4xl font-semibold text-white ">
+              <h2 className="mb-4 text-4xl sm:text-25px font-semibold text-white">
                 ჩვენს შესახებ
               </h2>
-              <p className="mb-10 text-xl leading-7 text-white">
+              <p className="mb-10 md:text-xl leading-7 text-white">
                 ლიდერთა აკადემიას ღრმად აქვს ფესვგადგმული მიზანი: ხელმისაწვდომი
                 გახადოს განათლება რეგიონებსა და სოფლებში მცხოვრებ
                 ახალგაზრდებისთვის, რომლებსაც ხშირად არ აქვთ წვდომა
@@ -19,7 +17,7 @@ const AboutPage = () => {
                 ამ საგანმანათლებლო უფსკრულის გადალახვის ხედვით და ჩვენ ეს გზას
                 გამოცდილი ექსპერტების გუნდის შეკრებით დავიწყეთ.
               </p>
-              <p className="mb-10 text-xl leading-7 text-white">
+              <p className="mb-10 md:text-xl leading-7 text-white">
                 ჩვენი გუნდის თითოეულმა წევრმა აჩვენა თავისი ოსტატობა
                 პროგრამირებისა და 3D ხელოვნების სფეროში, დააგროვეს დიდი
                 გამოცდილება და მიღწევები შესაბამის სფეროებში. საზოგადოებისთვის
@@ -27,7 +25,7 @@ const AboutPage = () => {
                 დაგროვილი ცოდნა გავუზიაროთ იმ ადამიანებს, რომლებსაც აქვთ
                 სწავლისა და წარმატების მოტივაცია.
               </p>
-              <p className="mb-10 text-xl leading-7 text-white">
+              <p className="mb-10 md:text-xl leading-7 text-white">
                 ლიდერთა აკადემიაში ჩვენ გვჯერა, რომ ნიჭი არ იცნობს გეოგრაფიულ
                 საზღვრებს და სწორი ხელმძღვანელობითა და შესაძლებლობებით,
                 პოტენციალი შეიძლება აყვავდეს ყველაზე მოულოდნელ ადგილებში. ჩვენ

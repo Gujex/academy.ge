@@ -17,7 +17,7 @@ const postData: DataType[] = [
     profession: "3D Artist",
     name: "T. Dolenjashvili",
     imgSrc: "/images/profs/tom.jpg",
-    linkedin: "https://www.linkedin.com/in/giorgi-gujejiani-a991b1196/",
+    linkedin: "https://www.linkedin.com/in/tomadolenjashvili/",
   },
   {
     profession: "Full Stack Developer",
@@ -29,19 +29,19 @@ const postData: DataType[] = [
     profession: "3D Artist",
     name: "E. Nikabadze",
     imgSrc: "/images/profs/elis.jpg",
-    linkedin: "https://www.linkedin.com/in/giorgi-gujejiani-a991b1196/",
+    linkedin: "https://www.linkedin.com/in/elisabed-nikabadze-966b55211/",
   },
   {
     profession: "Backend developer",
     name: "D. Gujejiani",
     imgSrc: "/images/profs/დავიდ.jpg",
-    linkedin: "https://www.linkedin.com/in/giorgi-gujejiani-a991b1196/",
+    linkedin: "https://www.linkedin.com/in/davitgujejiani/",
   },
   {
     profession: "3D Artist",
     name: "T. Dolenjashvili",
     imgSrc: "/images/profs/tom.jpg",
-    linkedin: "https://www.linkedin.com/in/giorgi-gujejiani-a991b1196/",
+    linkedin: "https://www.linkedin.com/in/tomadolenjashvili/",
   },
   {
     profession: "Full Stack Developer",
@@ -130,7 +130,7 @@ export default class MultipleItems extends Component {
                     target="_blank"
                     className="absolute bottom-[-1rem]"
                   >
-                   
+
                     <Image
                       src={"/images/wework/linkedin2.svg"}
                       alt="greenbg"
