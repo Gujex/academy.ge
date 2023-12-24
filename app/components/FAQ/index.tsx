@@ -14,7 +14,7 @@ const FAQ = () => {
                         {({open}) => (
                             <>
                                 <Disclosure.Button
-                                    className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">
+                                    className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium ">
                                     <span>ვინ არიან აკადემიის სტუდენტები?</span>
                                     <ChevronUpIcon
                                         className={`${open ? 'rotate-180 transform' : ''
