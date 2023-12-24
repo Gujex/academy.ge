@@ -2,11 +2,11 @@ import React from "react";
 const AboutPage = () => {
   return (
     <>
-      <section className=" relative flex items-center bg-[#27262c] min-h-[600px]  py-40	">
+      <section className=" relative flex items-center bg-[#27262c] min-h-[600px]  md:py-40	">
         <div className="justify-center flex-1 max-w-6xl py-4 mx-auto ">
           <div className="flex flex-wrap ">
             <div className="w-full px-4   ">
-              <h2 className="mb-4 text-4xl sm:text-25px font-semibold text-white">
+              <h2 className="mb-4 text-2xl sm:text-25px font-semibold text-white">
                 ჩვენს შესახებ
               </h2>
               <p className="mb-10 md:text-xl leading-7 text-white">
