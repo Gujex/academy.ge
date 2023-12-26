@@ -18,14 +18,29 @@ const GlobalContext = createContext<ContextProps>({
   setIsOpenModal: () => {}, // Default function without console.log
 });
 
-export const GlobalContextProvider: React.FC = ({ children }) => {
-  const [isOpenModal, setIsOpenModal] = useState(false);
+export const GlobalContextProvider = ({ children }: any) => {
+    const [isOpenModal, setIsOpenModal] = useState(false);
 
-  return (
-    <GlobalContext.Provider value={{ isOpenModal, setIsOpenModal }}>
-      {children}
-    </GlobalContext.Provider>
-  );
+    return (
+        <GlobalContext.Provider
+        value={{
+            isOpenModal,
+            setIsOpenModal,
+        }}
+        >
+        {children}
+        </GlobalContext.Provider>
+    );
 };
+
+// export const GlobalContextProvider: React.FC = ({ children }) => {
+//   const [isOpenModal, setIsOpenModal] = useState(false);
+//
+//   return (
+//       <GlobalContext.Provider value={{ isOpenModal, setIsOpenModal }}>
+//         {children}
+//       </GlobalContext.Provider>
+//   );
+// };
 
 export const useGlobalContext = () => useContext(GlobalContext);
