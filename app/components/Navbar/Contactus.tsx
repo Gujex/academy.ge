@@ -58,7 +58,6 @@ const Contactusform = () => {
   // FORM SUBMIT
   const handleSubmit = (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    // handle form submission
   };
 
   const isDisabled: any = Object.keys(inputValues).some(
