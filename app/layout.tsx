@@ -1,7 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/Navbar/index";
 import Footer from "./components/Footer/index";
-import {ClerkProvider} from "@clerk/nextjs";
+// import {ClerkProvider} from "@clerk/nextjs";
 import {GlobalContextProvider} from "./Context/store";
 import React from "react";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <ClerkProvider>
+        // <ClerkProvider>
             <GlobalContextProvider>
                 <html lang="en">
                 <body>
@@ -26,6 +26,6 @@ export default function RootLayout({
                 </body>
                 </html>
             </GlobalContextProvider>
-        </ClerkProvider>
+        // </ClerkProvider>
     );
 }
