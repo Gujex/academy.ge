@@ -147,6 +147,9 @@ html {
   .marginFeature {
     margin-top: -341px;
   }
+  .logo_item {
+    width: 70%;
+  }
 }
 
 .pb-70 {

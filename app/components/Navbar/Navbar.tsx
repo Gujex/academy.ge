@@ -47,7 +47,7 @@ const Navbar = () => {
                                     className="text-2xl sm:text-4xl font-semibold text-white"
                                 >
                                     {/*Leaders Academy*/}
-                                    <Image src={logo} alt={"logo"} width={120} height={120}/>
+                                    <Image className={'logo_item'} src={logo} alt={"logo"} width={120} height={120}/>
                                 </Link>
                             </div>
 
