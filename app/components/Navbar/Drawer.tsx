@@ -3,7 +3,7 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
 interface DrawerProps {
-  children: ReactNode;
+  children: any;
   isOpen: boolean;
   setIsOpen: (isOpen: boolean) => void;
 }
