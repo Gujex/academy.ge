@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/index";
 import Footer from "./components/Footer/index";
 import {ClerkProvider} from "@clerk/nextjs";
 import {GlobalContextProvider} from "./Context/store";
+import React from "react";
 
 export const metadata = {
     title: "Leaders Academy",
@@ -12,7 +13,7 @@ export const metadata = {
 export default function RootLayout({
                                        children,
                                    }: {
-    children: any;
+    children: React.ReactNode;
 }) {
     return (
         <ClerkProvider>

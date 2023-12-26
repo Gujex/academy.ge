@@ -18,7 +18,7 @@ const GlobalContext = createContext<ContextProps>({
   setIsOpenModal: () => {}, // Default function without console.log
 });
 
-export const GlobalContextProvider: React.FC = ({ children }:any) => {
+export const GlobalContextProvider: React.FC = ({ children }) => {
   const [isOpenModal, setIsOpenModal] = useState(false);
 
   return (
